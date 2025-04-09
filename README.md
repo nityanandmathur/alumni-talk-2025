@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 <!--
 theme: gaia
 class:
@@ -12,111 +16,92 @@ _class:
  - invert
 -->
 
-# Deploy Marp to GitHub Pages
+# IIITG Alumni Talk 2025
 
-Presentations to Webpages: Instantly!
+What I Wish I Knew About Engineering
 
-## What?
+## About me
+* Data scientist @ Smallest AI
+* Interns
+    - Bosch Research - Data Augmentation using Diffusion
+    - IBM - Parameter Efficient Training of Diffusion
+    - University Of Surrey - Explainable Sketch Generation
+    - Osaka University - Counterfactual Machine Learning
+    - CogXR Labs - MLOps and Image Classification
+    - IIITG - Service Caching Algorithms - Dr. Radhika Sukarpuram
+    - IIITG - Hate Meme Detection - Dr. Ferdous Ahmed Barbhuiya
 
-[Marp](https://marp.app/) lets you create HTML slides from markdown (like this!).
+## How to bring new ideas? <br> How to make subjects more interesting?
 
-This presentation is both a [website](https://alexsci.com/marp-to-pages) and a [README.md](https://github.com/ralexander-phi/marp-to-pages/blob/main/README.md).
+Ideas are floating everywhere, you just need to look around.
 
-## Why?
+1. Spotify latency reduction
+2. Sniper AI from IGI
 
-Treat your presentation the same way you treat code.
+Relate subjects/topics with your favourite hobbies.
+1. Interstellar and ODEs
+2. Curl of VFs and weather prediction
 
-- Use git to track changes
-- Pull requests to collaborate
-- Deploy automatically
-- See a problem? Open an issue!
+## Common Myths
 
-## Setup
+If someone gets an idea, or a startup shoots, is he/she lucky?
 
-Want to create your own?
+**NO**
 
-First, create a new repo [from the template repo](https://github.com/ralexander-phi/marp-to-pages).
+What if you fail?
 
-![](img/use-template.png)
+**If not now, then when?
+If not you, then who?**
 
-## Configure GitHub Pages
+## But, what if I couldn't think of novel ideas?
 
-Open your new repo and [setup publishing](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
+- Pickup a good feature and make it real-time.
+- Create SDKs
+- Create PyPi / NPM packages
+<img src="image-2.png" alt="message" width="80%" style="display: block; margin: 10 auto;"/>
 
-You'll typically use `gh-pages` as the deploy branch.
+## But how does it helps?
 
-## Review Build
+> If no one knows your work exists, it doesn’t matter how good it is.
+- Green is the new sexy! 
+![alt text](image-7.png)
 
-Click on Actions tab and see if the build succeeded (it may take some time).
+## Does DSA matter?
+- If you want a 9 to 5 job, yes!
 
-![](img/click-actions.png)
+- If you want to make impact / do research / create startups, no!
 
-You should now see the generated files in the `gh-pages` branch.
+<img src="image-9.png" alt="message" width="100%" />
 
-## View webpage
+## How to approach for Internsips/FTs?
+Apart from applying on portal <br>
+**Cold Mailing / LinkedIn** </br></br>
 
-Open your deployed webpage to see the content.
+<img src="image-1.png" alt="message" width="105%" />
 
-Out of the box you should see `README.md` as `/index.html` and `/README.pdf`. Slides under `docs/` are also converted.
+#
+<img src="image-4.png" alt="message" width="85%" />
 
-## Running locally
+## Job Offer
 
-Locally you'll run commands like:
+Build an TTS analysis tool(metric based), which determines:
+1. How good is the quality of audio?
+2. Does the TTS speak what it is supposed to?
+3. To what extent does it replicate the speaker?
 
-```
-$ marp README.md -o build/README.pdf
-```
+Give me numbers and I guarentee **Minimum CTC - 35 LPA!**
 
-or
+## Ending notes
 
-```
-$ npx @marp-team/marp-cli@latest README.md -o build/README.pdf
-```
+1. Get obsessed with what you do. 
 
-## As a workflow step
+2. Obsession >>>> Discipline.
 
-The workflow runs an equivalent step:
+3. Never get scared!
 
-```
-- name: Marp Build (README.pdf)
-  uses: docker://marpteam/marp-cli:v1.7.0
-  with:
-    args: README.md -o build/README.pdf
-  env:
-    MARP_USER: root:root
-```
+4. Build in public as much as you can.
 
-Note the `args` match the previous slide.
-
-## Customizing the build
-
-Anything in the `build/` folder will be deployed to GitHub Pages.
-
-You can copy extra files or run further processing steps using other tools.
-
-## Learn more about Marp
-
-This is a good time to learn more about Marp. Here's some resources:
-
-- [CommonMark](https://commonmark.org/)
-- [Cheat Sheet](https://commonmark.org/help/)
-- [Themes](https://github.com/marp-team/marp-core/tree/master/themes)
-- [CSS Themes](https://marpit.marp.app/theme-css)
-- [Directives](https://marpit.marp.app/directives)
-- [VS Code plugin](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
-
-## Example Sites
-
-Known sites using this action are:
-
-- [University of Illinois at Urbana-Champaign's CS 199 Even More Practice](https://cs199emp.netlify.app/) [(code)](https://github.com/harsh183/emp-125)
-- [Exploring agent based models](https://roiarthurb.github.io/Talk-UMMISCO_06-07-2020/) [(code)](https://github.com/RoiArthurB/Talk-UMMISCO_06-07-2020)
-
-Send a [pull request](https://github.com/ralexander-phi/marp-to-pages) to get your site added.
-
-## Publish your slides
-
-When you are ready to share your presentation, commit or merge to `main` and your content on GitHub Pages will automatically update.
+5. Confidence is all you need!
 
 # 🎉
 <!--
